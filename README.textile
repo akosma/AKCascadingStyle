@@ -1,0 +1,7 @@
+h1. AKCascadingStyle
+
+This project provides a simple framework to centralize style information (fonts, colors, etc) in iPhone and Mac applications.
+
+h2. License
+
+This code is released under a liberal BSD license. See the LICENSE file for details.
