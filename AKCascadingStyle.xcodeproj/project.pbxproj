@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		3A00BEC511B7CAB4009583F4 /* AKCascadingStyleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BEC011B7CAB4009583F4 /* AKCascadingStyleAppDelegate.m */; };
+		3A00BEC611B7CAB4009583F4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BEC311B7CAB4009583F4 /* RootViewController.m */; };
+		3A00BED111B7CB9B009583F4 /* UIFont+AKCascadingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BED011B7CB9B009583F4 /* UIFont+AKCascadingStyle.m */; };
+		3A00BED411B7CC3C009583F4 /* UIColor+AKCascadingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BED311B7CC3C009583F4 /* UIColor+AKCascadingStyle.m */; };
+		3A00BED711B7CCAD009583F4 /* AKCascadingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BED611B7CCAD009583F4 /* AKCascadingStyle.m */; };
+		3A00BEFA11B7D3F6009583F4 /* NSObject+AKCascadingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BEF911B7D3F6009583F4 /* NSObject+AKCascadingStyle.m */; };
+		3A00BF0611B7D4BD009583F4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BF0411B7D4BD009583F4 /* DetailViewController.m */; };
+		3A00BF0D11B7D4EC009583F4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A00BF0A11B7D4EC009583F4 /* DetailViewController.xib */; };
+		3A00BF0E11B7D4EC009583F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A00BF0B11B7D4EC009583F4 /* MainWindow.xib */; };
+		3A00BF0F11B7D4EC009583F4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A00BF0C11B7D4EC009583F4 /* RootViewController.xib */; };
+		3A00BF1C11B7D7F1009583F4 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A00BF1B11B7D7F1009583F4 /* Data.plist */; };
+		3A00BF7711B7EC09009583F4 /* SimpleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BF7611B7EC09009583F4 /* SimpleStyle.m */; };
+		3A00BF8011B7EC93009583F4 /* ShadowStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00BF7F11B7EC93009583F4 /* ShadowStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* AKCascadingStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKCascadingStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* AKCascadingStyle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCascadingStyle_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A00BEBF11B7CAB4009583F4 /* AKCascadingStyleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCascadingStyleAppDelegate.h; sourceTree = "<group>"; };
+		3A00BEC011B7CAB4009583F4 /* AKCascadingStyleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCascadingStyleAppDelegate.m; sourceTree = "<group>"; };
+		3A00BEC211B7CAB4009583F4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3A00BEC311B7CAB4009583F4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3A00BECF11B7CB9B009583F4 /* UIFont+AKCascadingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AKCascadingStyle.h"; sourceTree = "<group>"; };
+		3A00BED011B7CB9B009583F4 /* UIFont+AKCascadingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AKCascadingStyle.m"; sourceTree = "<group>"; };
+		3A00BED211B7CC3C009583F4 /* UIColor+AKCascadingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AKCascadingStyle.h"; sourceTree = "<group>"; };
+		3A00BED311B7CC3C009583F4 /* UIColor+AKCascadingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AKCascadingStyle.m"; sourceTree = "<group>"; };
+		3A00BED511B7CCAD009583F4 /* AKCascadingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCascadingStyle.h; sourceTree = "<group>"; };
+		3A00BED611B7CCAD009583F4 /* AKCascadingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCascadingStyle.m; sourceTree = "<group>"; };
+		3A00BEF811B7D3F6009583F4 /* NSObject+AKCascadingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AKCascadingStyle.h"; sourceTree = "<group>"; };
+		3A00BEF911B7D3F6009583F4 /* NSObject+AKCascadingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AKCascadingStyle.m"; sourceTree = "<group>"; };
+		3A00BF0311B7D4BD009583F4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3A00BF0411B7D4BD009583F4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3A00BF0A11B7D4EC009583F4 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3A00BF0B11B7D4EC009583F4 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3A00BF0C11B7D4EC009583F4 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		3A00BF1B11B7D7F1009583F4 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		3A00BF7511B7EC09009583F4 /* SimpleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleStyle.h; sourceTree = "<group>"; };
+		3A00BF7611B7EC09009583F4 /* SimpleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleStyle.m; sourceTree = "<group>"; };
+		3A00BF7E11B7EC93009583F4 /* ShadowStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowStyle.h; sourceTree = "<group>"; };
+		3A00BF7F11B7EC93009583F4 /* ShadowStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowStyle.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AKCascadingStyle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AKCascadingStyle-Info.plist"; path = "../AKCascadingStyle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AKCascadingStyle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BEBD11B7CAB4009583F4 /* Classes */,
+				3A00BF0811B7D4EC009583F4 /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* AKCascadingStyle_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A00BEBD11B7CAB4009583F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BEBE11B7CAB4009583F4 /* AppDelegate */,
+				3A00BEC111B7CAB4009583F4 /* Controllers */,
+				3A00BEC411B7CAB4009583F4 /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A00BEBE11B7CAB4009583F4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BEBF11B7CAB4009583F4 /* AKCascadingStyleAppDelegate.h */,
+				3A00BEC011B7CAB4009583F4 /* AKCascadingStyleAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3A00BEC111B7CAB4009583F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BEC211B7CAB4009583F4 /* RootViewController.h */,
+				3A00BEC311B7CAB4009583F4 /* RootViewController.m */,
+				3A00BF0311B7D4BD009583F4 /* DetailViewController.h */,
+				3A00BF0411B7D4BD009583F4 /* DetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A00BEC411B7CAB4009583F4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BECE11B7CB43009583F4 /* Categories */,
+				3A00BED511B7CCAD009583F4 /* AKCascadingStyle.h */,
+				3A00BED611B7CCAD009583F4 /* AKCascadingStyle.m */,
+				3A00BF7511B7EC09009583F4 /* SimpleStyle.h */,
+				3A00BF7611B7EC09009583F4 /* SimpleStyle.m */,
+				3A00BF7E11B7EC93009583F4 /* ShadowStyle.h */,
+				3A00BF7F11B7EC93009583F4 /* ShadowStyle.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A00BECE11B7CB43009583F4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BECF11B7CB9B009583F4 /* UIFont+AKCascadingStyle.h */,
+				3A00BED011B7CB9B009583F4 /* UIFont+AKCascadingStyle.m */,
+				3A00BED211B7CC3C009583F4 /* UIColor+AKCascadingStyle.h */,
+				3A00BED311B7CC3C009583F4 /* UIColor+AKCascadingStyle.m */,
+				3A00BEF811B7D3F6009583F4 /* NSObject+AKCascadingStyle.h */,
+				3A00BEF911B7D3F6009583F4 /* NSObject+AKCascadingStyle.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3A00BF0811B7D4EC009583F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* AKCascadingStyle-Info.plist */,
+				3A00BF1A11B7D7E9009583F4 /* Data */,
+				3A00BF0911B7D4EC009583F4 /* NIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A00BF0911B7D4EC009583F4 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BF0B11B7D4EC009583F4 /* MainWindow.xib */,
+				3A00BF0C11B7D4EC009583F4 /* RootViewController.xib */,
+				3A00BF0A11B7D4EC009583F4 /* DetailViewController.xib */,
+			);
+			path = NIBs;
+			sourceTree = "<group>";
+		};
+		3A00BF1A11B7D7E9009583F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A00BF1B11B7D7F1009583F4 /* Data.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AKCascadingStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AKCascadingStyle" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKCascadingStyle;
+			productName = AKCascadingStyle;
+			productReference = 1D6058910D05DD3D006BFB54 /* AKCascadingStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "akosma software";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AKCascadingStyle" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AKCascadingStyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00BF0D11B7D4EC009583F4 /* DetailViewController.xib in Resources */,
+				3A00BF0E11B7D4EC009583F4 /* MainWindow.xib in Resources */,
+				3A00BF0F11B7D4EC009583F4 /* RootViewController.xib in Resources */,
+				3A00BF1C11B7D7F1009583F4 /* Data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				3A00BEC511B7CAB4009583F4 /* AKCascadingStyleAppDelegate.m in Sources */,
+				3A00BEC611B7CAB4009583F4 /* RootViewController.m in Sources */,
+				3A00BED111B7CB9B009583F4 /* UIFont+AKCascadingStyle.m in Sources */,
+				3A00BED411B7CC3C009583F4 /* UIColor+AKCascadingStyle.m in Sources */,
+				3A00BED711B7CCAD009583F4 /* AKCascadingStyle.m in Sources */,
+				3A00BEFA11B7D3F6009583F4 /* NSObject+AKCascadingStyle.m in Sources */,
+				3A00BF0611B7D4BD009583F4 /* DetailViewController.m in Sources */,
+				3A00BF7711B7EC09009583F4 /* SimpleStyle.m in Sources */,
+				3A00BF8011B7EC93009583F4 /* ShadowStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AKCascadingStyle_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "AKCascadingStyle-Info.plist";
+				PRODUCT_NAME = AKCascadingStyle;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AKCascadingStyle_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "AKCascadingStyle-Info.plist";
+				PRODUCT_NAME = AKCascadingStyle;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AKCascadingStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AKCascadingStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
